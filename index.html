@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="../CSS/styles.css">     
+    <!-- Link to your CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- <li><button id="theme-toggle">Toggle Dark/Light Mode</button></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Full-screen image section -->
+    <section id="hero">
+        <div class="hero-text">
+            <h1>Something to live for!</h1>
+            <p class="quote"></p>
+            <p class="additional-text">Creativity needs space.</p>
+        </div>
+    </section>
+    
+
+    <section id="home">
+        <h1>Welcome to My Photography Portfolio</h1>
+        <p>Capturing moments, one shot at a time.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hey, Bhupender this side. I love photography as an art and I am an engineering student who codes as well.</p>
+    </section>
+
+    <!-- Lightbox Gallery -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+        <div class="gallery-grid">
+            <a href="../Images/12.jpeg" data-lightbox="gallery">
+                <img src="../Images/12.jpeg" alt="Photo 1" loading="lazy">
+            </a>
+            <a href="../Images/10.jpeg" data-lightbox="gallery">
+                <img src="../Images/10.jpeg" alt="Photo 2" loading="lazy">
+            </a>
+            <a href="../Images/04.jpeg" data-lightbox="gallery">
+                <img src="../Images/04.jpeg" alt="Photo 3" loading="lazy">
+            </a>
+            <a href="../Images/05.jpeg" data-lightbox="gallery">
+                <img src="../Images/05.jpeg" alt="Photo 4" loading="lazy">
+            </a>
+            <a href="../Images/02.jpeg" data-lightbox="gallery">
+                <img src="../Images/02.jpeg" alt="Photo 5" loading="lazy">
+            </a>
+            <a href="../Images/08.jpeg" data-lightbox="gallery">
+                <img src="../Images/08.jpeg" alt="Photo 6" loading="lazy">
+            </a>
+            <a href="../Images/06.jpeg" data-lightbox="gallery">
+                <img src="../Images/06.jpeg" alt="Photo 7" loading="lazy">
+            </a>
+            <a href="../Images/13.jpeg" data-lightbox="gallery">
+                <img src="../Images/13.jpeg" alt="Photo 8" loading="lazy">
+            </a>
+            <a href="../Images/01.jpeg" data-lightbox="gallery">
+                <img src="../Images/01.jpeg" alt="Photo 9" loading="lazy">
+            </a>
+            <a href="../Images/03.jpeg" data-lightbox="gallery">
+                <img src="../Images/03.jpeg" alt="Photo 10" loading="lazy">
+            </a>
+            <a href="../Images/11.jpeg" data-lightbox="gallery">
+                <img src="../Images/11.jpeg" alt="Photo 11" loading="lazy">
+            </a>
+            <a href="../Images/07.jpeg" data-lightbox="gallery">
+                <img src="../Images/07.jpeg" alt="Photo 12" loading="lazy">
+            </a>
+            
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch with me via <a href="mailto:bhupenderclicks0005@gmail.com">email</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bhupender Singh. All rights reserved.</p>
+    </footer>
+    <!-- <script src="../js/scripts.js" defer></script> -->
+</body>
+</html>
